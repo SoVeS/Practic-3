@@ -16,7 +16,7 @@ int main()
     {
         for (int j = 0; j < column; j++)
         {
-            n = n + 1;
+            n += 1;
             cout << "[" <<n<< "]" << ": ";
             cin >> numbers[i][j];
         }
